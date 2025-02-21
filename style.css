@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bacc.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 0;
+   
+    
+   
+}
+
+#aft{
+    font-size: 85px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+
+.all{
+    background-color: transparent;
+    height: 500px;
+    width: 400px;
+    font-family: "Roboto", serif;
+    
+    align-content: center;
+    text-align: center;
+    color: aliceblue;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(235, 230, 230, 0.1);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(5px);
+
+}
+
+.entry{
+    padding: 0;
+    padding-left: 20px;
+   
+    text-align: left;
+}
+
+#submit{
+    background-color: white;
+    margin-top: 40px;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255,0.8);
+    box-shadow: none;
+    border: 0;
+}
+
+#submit:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#submit:active{
+    animation: tickle 0.3s ease-in-out;
+}
+
+@keyframes tickle {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-2px); }
+    50% { transform: translateY(2px); }
+    75% { transform: translateY(-1px); }
+    100% { transform: translateY(0); }
+  }
+  
+
+
+
+
+#temp{
+    margin-top: 20px;
+    padding-left: 10px;
+  height: 30px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255,0.9);
+    box-shadow: none;
+    border: 0;
+}
+
+.conv{
+    display: flex;
+    justify-content: center;
+
+}
+@media screen and (max-width: 600px)
+{
+     
+    .all{
+        background-color: transparent;
+        height: 500px;
+        width:  250px;
+        font-family: "Roboto", serif;
+        
+        align-content: center;
+        text-align: center;
+        color: aliceblue;
+    
+        border: 1px solid rgba(255, 255, 255, .25);
+      border-radius: 20px;
+      background-color: rgba(235, 230, 230, 0.1);
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    
+      backdrop-filter: blur(5px);
+    
+    }
+    #aft{
+        
+        font-size: 40px;
+        padding-bottom: 40px;
+        font-weight: 500;
+    }
+    #bfr{
+        
+        font-size: 30px;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+
+}
